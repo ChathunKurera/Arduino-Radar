@@ -16,23 +16,24 @@ void setup() {
 
 void loop() {
 
-  for(int i = 15; i <= 165; i++){
- 
-    servoName.write(i);
-    delay(8);
-    Serial.print(i); 
-    Serial.print(","); //for readability in processing code
-    radarDistance();
 
-  }
-  for(int j = 165; j > 15 ; j--){
+  for(int j = 175; j > 5 ; j--){
     
-    servoName.write(j);
+    servoName.write(180-j);
     delay(8);
     Serial.print(j); 
     Serial.print(","); //for readability in processing code
     radarDistance();   
    
+  }
+  for(int i = 5; i <= 175; i++){
+ 
+    servoName.write(180-i);
+    delay(8);
+    Serial.print(i); 
+    Serial.print(","); //for readability in processing code
+    radarDistance();
+
   }
 }
 

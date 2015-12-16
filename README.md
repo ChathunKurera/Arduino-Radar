@@ -9,3 +9,5 @@ This is a project made using *Arduino Uno* board and *HC-SR04 ultrasonic range s
 
 Arduino IDE was used for the servo and obtaining of serial monitor data from the ultranic sensor. Then processing IDE was
 used to read serial data monitor and plot the radar GUI.
+
+![alt tag](https://github.com/ChathunKurera/Arduino-Radar/blob/master/Radar%20build%20images/GUIradar.jpg)
